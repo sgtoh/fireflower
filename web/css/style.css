@@ -1,0 +1,272 @@
+/*all*/
+body {
+    min-width: 480px;
+	font-family:"メイリオ";
+}
+
+body a {
+    text-decoration:none;
+}
+/*触られてないとき*/
+body a:link {
+    color: white;
+}
+/*一回はいった*/
+body a:visited {
+    color: white;
+}
+/*マウスが載ってるとき*/
+body a:hover {
+    color: yellow;
+} 
+/*クリックしてからマウスをはなすまで*/
+body a:active {
+    color: brown;
+}
+/*メニュー*/
+.menu_space {
+	width:100%;
+    min-width: 640px;
+	background-color:green;
+	position:fixed;
+		top:0px;
+		left:0px;
+}
+
+.menu_space li{
+	width:20%;
+	padding-top:10px;
+	padding-bottom:10px;
+	text-align:center;
+	display:inline-block;
+	background-color:#333;
+	-moz-box-sizing: border-box;
+	   -webkit-box-sizing: border-box;
+	   -o-box-sizing: border-box;
+	   -ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border:1px solid white;
+	font-size:20px;
+	background-image:url(../images/fire.png);
+	background-repeat: no-repeat;
+	background-size:42px auto;
+}
+
+.menu_space li>a{
+	display:inline;
+  vertical-align: middle;
+}
+/*コンテント関連*/
+
+#main{
+	display: table;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.content {
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	background-color:#f5f5f5;
+		/*-moz-box-sizing: border-box;
+	   -webkit-box-sizing: border-box;
+	   -o-box-sizing: border-box;
+	   -ms-box-sizing: border-box;
+	box-sizing: border-box;
+	border:1px solid red;*/
+}
+
+#figure_box {
+	width:500px;
+	margin-right:auto;
+	margin-left:auto;
+    text-align: center;
+}
+.figure3 {
+	width:150px;
+	height:150px;
+	margin-right:10px;
+}
+
+#start_h2{
+	text-align:center;
+	font-size:30px;
+}
+#modezero{
+	width:100%;
+        min-width: 830px;
+	height:auto;
+}
+#mdl {
+	display: block;
+    margin: 0 auto;
+	cursor: pointer;
+}
+/*ボタン関連*/
+#user_login{
+	margin:0 auto;
+	text-align:center;
+}
+
+#btn_login {
+	text-align:center;
+    margin-top: 30px;
+	display:inline-block;
+}
+#btn_login a {
+    background-image: url("../images/glossy-btn_49.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+    padding: 6px;
+}
+#btn_newlogin{
+	text-align:center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+	display:inline-block;
+}
+#btn_newlogin a {
+    background-image: url("../images/glossy-btn_54.png");
+    background-size:100% 100%;
+    background-repeat: no-repeat;
+   	padding: 6px;
+}
+#overlay {
+    position: fixed;
+		top: 0;
+    	left: 0;
+    	right: 0;
+    	bottom: 0;
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 5;
+    cursor: pointer;
+}
+
+#overlay h1 {
+	color:red;
+}
+
+.loginform {
+	width:600px;
+	background-color:#99FFFF;
+	display: block;
+    margin: 0 auto;
+}
+.loginform table {
+	width:100%;
+
+}
+.loginform tr {
+	height:100px;
+}
+.loginform tr:nth-child(2n){
+	background-color: #CCFFFF;
+}
+
+.loginform td {
+	width:25%;
+}
+
+.loginform th {
+	width:75%;
+}
+
+
+form,.loginform td,th {
+	text-align:center;
+}
+/*6つ並んでいる画像*/
+.figure6_box {
+	width:300px;
+	display:inline-block;
+	height:auto;
+	-moz-box-sizing: border-box;
+	   -webkit-box-sizing: border-box;
+	   -o-box-sizing: border-box;
+	   -ms-box-sizing: border-box;
+	box-sizing: border-box;
+	/*border:1px solid red;*/
+		margin-top:10px;
+}
+.figure6 {
+	width:200px;
+	height:auto;
+}
+
+.figure6_center{
+	width:900px;
+	text-align:center;
+	display: block;
+    margin: 0 auto;
+	margin-top:30px;
+	margin-bottom:30px;
+}
+/*フッター関連*/
+small {
+	float:right;
+}
+
+footer {
+	margin-top:30px;
+	
+}
+
+/*content2*/
+
+#content_h2{
+	font-size:35px;
+}
+.leftside{
+	display:inline-block;
+	width:360px;
+	word-break: break-all;
+	-moz-box-sizing: border-box;
+	   -webkit-box-sizing: border-box;
+	   -o-box-sizing: border-box;
+	   -ms-box-sizing: border-box;
+	box-sizing: border-box;
+	/*background-color:red;*/
+	margin-top:30px;
+	margin-right:40px;
+}
+.rightside{
+	display:inline-block;
+	width:400px;
+	word-break: break-all;
+	-moz-box-sizing: border-box;
+	   -webkit-box-sizing: border-box;
+	   -o-box-sizing: border-box;
+	   -ms-box-sizing: border-box;
+	box-sizing: border-box;
+	vertical-align:top;
+	/*background-color:blue;*/
+	margin-top:30px;
+}
+
+.content_h3{
+	font-size:36px;
+}
+.content_last {
+	margin-top:50px;
+	margin-left:auto;
+	margin-right:auto;
+	width:800px;
+	background-color:#f5f5f5;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+/*calc https://qiita.com/naru0504/items/ff0c77775223dc5a9148*/
+
+.test_box{
+	height:550px;
+	overflow-y:scroll;
+	/*スクロールバーを見えない位置に押しやる*/
+	width: calc(100% + 17px);
+
+}
